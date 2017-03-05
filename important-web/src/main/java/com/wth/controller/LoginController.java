@@ -14,6 +14,7 @@ import java.util.Date;
 /**
  * Created by hanyuan on 3/5/17.
  */
+@RequestMapping("/springmvc")
 @Controller
 class LoginController {
     @Autowired
