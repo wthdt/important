@@ -22,11 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="important-biz" />
+        <module name="important-common" />
+        <module name="important-dal" />
         <module name="important-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="important" target="1.8" />
+      <module name="important-biz" target="1.8" />
+      <module name="important-common" target="1.8" />
+      <module name="important-dal" target="1.8" />
       <module name="important-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
